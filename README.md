@@ -1,4 +1,4 @@
-# guava-libraries-optional
+# guava-libraries-optional [![Build Status](https://travis-ci.org/ichigotake/guava-libraries-optional.png)](https://travis-ci.org/ichigotake/guava-libraries-optional)
 
 Java "Optional" type from guava-libraries
 
