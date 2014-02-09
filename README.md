@@ -18,7 +18,7 @@ see https://code.google.com/p/guava-libraries/wiki/UsingAndAvoidingNullExplained
 
 ```
 repositories {
-    maven { url 'https://raw.github.com/ichigotake/guava-libraries-optional/repository' }
+    maven { url 'https://raw.github.com/ichigotake/guava-libraries-optional/master/repository' }
 }
 
 dependencies {
