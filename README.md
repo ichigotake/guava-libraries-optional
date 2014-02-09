@@ -26,6 +26,8 @@ dependencies {
 }
 ```
 
+or [download jar file from here.](https://github.com/ichigotake/guava-libraries-optional/releases)
+
 ## Proguard
 
 ```
