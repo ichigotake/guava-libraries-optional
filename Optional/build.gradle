@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+def VERSION = '16.0.1'
+
+dependencies {
+    compile 'com.google.code.findbugs:jsr305:1.3.9'
+    testCompile 'junit:junit:4.8.2'
+    testCompile 'com.google.guava:guava-testlib:16.0.1'
+}
+
+apply plugin: 'maven'
+
+def deployTo = new File(rootDir, "repository")
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://${deployTo}")
+            pom.version = VERSION
+            pom.groupId = 'com.google.guava'
+            pom.artifactId = 'guava-optional'
+        }   
+    }   
+}
