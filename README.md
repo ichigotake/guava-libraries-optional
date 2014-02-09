@@ -4,7 +4,7 @@ Java "Optional" type from guava-libraries
 
 ## Description
 
- ** This is un-official repository. **
+ **This is un-official repository.**
 
 guava-libraries is great library. But in Android application, too big and difficultly config proguard!
 
